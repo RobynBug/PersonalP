@@ -293,25 +293,13 @@ body {
 
 }
 
- .articleDes {
-    align-items: center;
-    justify-content: center;
-    display: inline-flex;
-    width: 100vw;
-    min-height: 30rem;
-    color: white;
-    
-    
-  
-} 
 
 .GenContainer{
     align-items: center;
     justify-content: center;
-    display: block;
-    width: 70rem;
-    height: 80vh;
-    display: flex; 
+    display: flex;
+    width: 60vw;
+    height: 70vh;
     flex-direction: row;
     color: white;
     overflow:hidden;
@@ -343,15 +331,19 @@ body {
 
 .firstStarting {
 
-    display:flex;
-    height: 30vh;
+    
+    height: 50vh;
     flex-wrap:wrap;
     margin-bottom: 13rem;
-    width: 100vw;
+    width: 30vw;
     padding-left: 1rem;
     padding-top: 5rem;
     color: rgb(231, 152, 123);
-    font-size: 2rem;
+    font-size: 1.5rem;
+
+    @media screen { min-width: 35px;
+        
+    }
 
 }
 
@@ -390,8 +382,8 @@ body {
 
 .introPhoto {
     
-        height: 55vh;
-        width: 180vw;
+        height: 40vh;
+        width: 45vw;
         background-image: url(/assets/img/HOBBIES-ARE-HEALTHY.jpg);
         background-color: rgb(145, 175, 97);
         background-position: 50%;
@@ -399,6 +391,7 @@ body {
         max-width: 100%;
         background-repeat: no-repeat;
         border-radius: 50% / 10%;
+        margin-right: 2rem;
         margin-top: 10rem;
         margin-left: 2rem;
         display: flex;
@@ -447,10 +440,14 @@ video {
 
 .articleDes {
     display: flex;
-    height: 100%;
-    width: 95%;
+    height: 70vh;
+    width: 80vw;
     
     font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: white;
     
 }
 
@@ -479,7 +476,7 @@ video {
 
 .buttonDiv {
     margin-bottom: 20rem;
-    height: 5%;
-    width: auto;
+    height: 10vh;
+    width: 20vw;
     
 }
