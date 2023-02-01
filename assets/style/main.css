@@ -364,13 +364,15 @@ body {
 }
 
 .randomGenerator {
+
     height: 55vh;
     width: 34vw;
     max-width: 15rem;
     background-image: url(/assets/img/backgroundvid.png);
     border-radius: 50% / 10%;
-    margin-top: 10rem;
+    margin-top: 13rem;
     margin-left: 2rem;
+    margin-right: 2rem;
     display: flex;
     float: right;
     border: solid black;
@@ -382,8 +384,8 @@ body {
 
 .introPhoto {
     
-        height: 40vh;
-        width: 45vw;
+        height: 50vh;
+        width: 60vw;
         background-image: url(/assets/img/HOBBIES-ARE-HEALTHY.jpg);
         background-color: rgb(145, 175, 97);
         background-position: 50%;
