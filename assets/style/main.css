@@ -156,7 +156,8 @@ body {
     background: url(/assets/img/painting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35rem;
+    height: 90vh;
+    width: 100%;
     background-position: center;
     display: none;
     
@@ -178,7 +179,8 @@ body {
     background: url(/assets/img/bookBackground.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35rem;
+    height: 90vh;
+    width: 100%;
     background-position: center;
     display: none;
     
@@ -313,7 +315,7 @@ body {
 
 .starting {
     display:flex;
-    height: 45vh;
+    height: 50vh;
     min-height: 35rem;
     
     flex-wrap:wrap;
@@ -366,7 +368,7 @@ body {
 .randomGenerator {
 
     height: 55vh;
-    width: 34vw;
+    width: 50vw;
     max-width: 15rem;
     background-image: url(/assets/img/backgroundvid.png);
     border-radius: 50% / 10%;
@@ -408,8 +410,7 @@ body {
 
 video {
     
-   
-    position:sticky;
+    display: flex;
     object-fit: cover;
     padding-right: 2rem;
     float: none;
@@ -426,7 +427,7 @@ video {
 
 .videoContainer {
     height: 40vh;
-    width: 105vw;
+    width: 60vw;
     border-radius: 50% / 10%;
     display: flex;
     overflow: hidden;
