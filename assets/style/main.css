@@ -1,0 +1,485 @@
+* {
+    padding-top: 26px;
+    font-size: 1.25rem;
+    margin: 0px;
+    
+      
+
+}
+
+body {
+    background-image: url(/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.header {
+    background-color: rgb(88, 71, 238);
+    width: 50%;
+    height: 10%;
+    min-width: 20rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 8px 8px white inset;
+    border: solid black;
+    text-align: center;
+    
+    
+
+} 
+
+.secondTitle {
+    background-color: rgb(182, 185, 187, .75);
+    width: 25%;
+    height: auto;
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 0 0 8px 8px  rgba(206, 209, 211, 0.75);
+    padding-bottom: 2rem;
+    align-items: center;
+    margin: 2rem;
+    display: flex;
+    float: left;
+    
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 1em white;
+    color: whitesmoke;
+    margin: auto;
+    padding-bottom: 1rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    size: 80rem;
+}
+
+.explain {
+    background-color: rgb(16, 17, 17, 0.75);
+    width: 80rem;
+    height: 15rem;
+    margin: auto;
+    
+    box-shadow: 0 0 8px 8px white inset;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.container {
+    border: solid lightgrey;
+    border-radius: 30px;
+    padding: 1rem;
+    display: flex;
+    background-color: rgb(187, 50, 187, .80);
+    width: 50rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 0 8px 8px white inset;
+   font-weight: bold; 
+   
+    
+}
+
+.buttonDesign {
+    padding: 1.5rem;
+    
+}
+
+.buttonT {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.buttonT:hover {
+    background-color: rgb(88, 71, 238);
+    border-color: gray;
+}
+
+.submit:hover {
+    background-color: rgb(88, 71, 238);
+    border-color: gray;
+}
+
+.submit:active {
+    background-color: rgb(88, 71, 238);
+    box-shadow: 0 5px #656;
+    transform: translate(4px);
+    color: rgb(196, 117, 196);
+
+}
+
+.explain {
+    padding: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    
+}
+
+.moreinfo1 {
+    font-size: 50%;
+    
+
+}
+
+.interest {
+    display: flex;
+    
+    margin: 10%;
+}
+
+.screen {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.containerArt {
+    background: url(/assets/img/painting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    background-position: center;
+    display: none;
+    
+
+}
+
+.artChoice {
+    background-color: rgb(16, 17, 17, 0.75);
+    height: 80%;
+    width: 80%;
+    padding-left: 2rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+.containerReading {
+    background: url(/assets/img/bookBackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    background-position: center;
+    display: none;
+    
+    
+
+}
+
+.readingChoice {
+    background-color: rgb(16, 17, 17, 0.75);
+    height: 80%;
+    width: 80%;
+    padding-left: 2rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+.containerCrafts {
+    background: url(/assets/img/craftsBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    display: none;
+    
+    
+
+}
+
+.craftsChoice {
+    background-color: rgb(16, 17, 17, 0.75);
+    height: 80%;
+    width: 80%;
+    padding-left: 2rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+.containerFitness {
+    background: url(/assets/img/fitnessBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    display: none;
+    
+    
+
+}
+
+.fitnessChoice {
+    background-color: rgb(16, 17, 17,.75);
+    height: 80%;
+    width: 80%;
+    padding-left: 2rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+.containerMusic {
+    background: url(/assets/img/musicBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    display: none;
+    
+    
+
+}
+
+.musicChoice {
+    background-color: rgb(16, 17, 17, 0.75);
+    height: 80%;
+    width: 80%;
+    padding-left: 2rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+.containerSkill {
+    background: url(/assets/img/skillBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    display: none;
+    
+    
+
+}
+
+.skillChoice {
+    background-color: rgb(16, 17, 17, .75);
+    height: 80%;
+    width: 80%;
+    padding-left: 2rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+ .articleDes {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 100vw;
+    min-height: 30rem;
+    color: white;
+    
+    
+  
+} 
+
+.GenContainer{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 70rem;
+    height: 80vh;
+    display: flex; 
+    flex-direction: row;
+    color: white;
+    overflow:hidden;
+    
+    
+
+   
+
+    
+}
+
+.starting {
+    display:flex;
+    height: 45vh;
+    min-height: 35rem;
+    
+    flex-wrap:wrap;
+    
+    width: 35vw;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    overflow: hidden;
+    margin-top: 5rem;
+    
+    
+    
+   
+}
+
+.firstStarting {
+
+    display:flex;
+    height: 30vh;
+    flex-wrap:wrap;
+    margin-bottom: 13rem;
+    width: 100vw;
+    padding-left: 1rem;
+    padding-top: 5rem;
+    color: rgb(231, 152, 123);
+    font-size: 2rem;
+
+}
+
+#start{
+    display: flex;
+    margin-top: 3rem;
+    
+    
+    
+    
+}
+.start1 {
+    display: flex;
+    
+   
+    
+    
+}
+
+.randomGenerator {
+    height: 55vh;
+    width: 34vw;
+    max-width: 15rem;
+    background-image: url(/assets/img/backgroundvid.png);
+    border-radius: 50% / 10%;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    display: flex;
+    float: right;
+    border: solid black;
+    margin-bottom: 15rem;
+    z-index: 1;
+    
+        
+}
+
+.introPhoto {
+    
+        height: 55vh;
+        width: 180vw;
+        background-image: url(/assets/img/HOBBIES-ARE-HEALTHY.jpg);
+        background-color: rgb(145, 175, 97);
+        background-position: 50%;
+        background-size: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        border-radius: 50% / 10%;
+        margin-top: 10rem;
+        margin-left: 2rem;
+        display: flex;
+        border: solid black;
+        margin-bottom: 15rem;
+        z-index: 1;
+        
+            
+    
+}
+
+
+video {
+    
+   
+    position:sticky;
+    object-fit: cover;
+    padding-right: 2rem;
+    float: none;
+    z-index: 1;
+    background-size: cover;
+    box-shadow: #000;
+    object-position: 50% 40%;
+    border: #000;
+    
+    
+
+    
+}
+
+.videoContainer {
+    height: 40vh;
+    width: 105vw;
+    border-radius: 50% / 10%;
+    display: flex;
+    overflow: hidden;
+    z-index: 2;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 15rem;
+    
+    
+    
+
+}
+
+.articleDes {
+    display: flex;
+    height: 100%;
+    width: 95%;
+    
+    font-size: 1.5rem;
+    
+}
+
+.innerDes {
+    font-weight: bold;
+    color: rgb(89, 241, 18);
+    font-size: 1.3rem;
+    width: 20rem;
+    padding-top: 1rem;
+    height: 10%;
+    
+    
+}
+
+.infoItem {
+    font-size: 1rem;
+    
+}
+
+.scrollItem {
+    scroll-behavior: smooth;
+    overflow: auto; resize: horizontal;
+    height: 22vh;
+    min-height: 22vh;;
+}
+
+.buttonDiv {
+    margin-bottom: 20rem;
+    height: 5%;
+    width: auto;
+    
+}
