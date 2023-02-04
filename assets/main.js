@@ -192,7 +192,7 @@ newForm.addEventListener('submit', (e) => {
         document.getElementById('artContainer').style.display = "none";
         selectionItem = "reading";
     } if (artRadio.checked == true) {
-        document.getElementById('artContainer').style.display = "flex";
+        document.getElementById('artContainer').style.display = "grid";
         document.getElementById('readingContainer').style.display = "none";
         document.getElementById('musicContainer').style.display = "none";
         document.getElementById('craftsContainer').style.display = "none";
