@@ -11,8 +11,13 @@ body {
     background-image: url(/assets/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     
+}
+
+@media(max-width: 500px) {
+    body {
+    grid-template-columns: 1fr;
+    }
 }
 
 .header {
@@ -30,18 +35,32 @@ body {
 
 } 
 
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    align-items: center;
+    
+
+}
+
+
+
 .secondTitle {
+
     background-color: rgb(182, 185, 187, .75);
-    width: 25%;
-    height: auto;
     border-radius: 10%;
     text-align: center;
+    max-width: 25vw;
     box-shadow: 0 0 8px 8px  rgba(206, 209, 211, 0.75);
     padding-bottom: 2rem;
-    align-items: center;
     margin: 2rem;
-    display: flex;
-    float: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+
+    
     
     
 }
@@ -59,14 +78,15 @@ body {
 
 .explain {
     background-color: rgb(16, 17, 17, 0.75);
-    width: 80rem;
-    height: 15rem;
-    margin: auto;
-    
     box-shadow: 0 0 8px 8px white inset;
     color: aliceblue;
-    display: flex;
-    flex-direction: column;
+    display:grid;
+    max-width: 60vw;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1rem;
+    padding: 2rem;
+    
     
 }
 
@@ -75,19 +95,28 @@ body {
 .container {
     border: solid lightgrey;
     border-radius: 30px;
-    padding: 1rem;
-    display: flex;
+    width:60vw;
+    min-height: 22.5vh;
+    display: grid;
     background-color: rgb(187, 50, 187, .80);
-    width: 50rem;
+    grid-template-columns: 1fr;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2rem;
     text-align: center;
+    justify-content: center;
     box-shadow: 0 0 8px 8px white inset;
    font-weight: bold; 
    
+   
     
+}
+
+@media (min-width: 886px){
+    .interest{
+        width: 100vw;
+    }
 }
 
 .buttonDesign {
@@ -96,14 +125,18 @@ body {
 }
 
 .buttonT {
-    margin-top: 1rem;
+    
     padding-bottom: 1rem;
     width: auto;
     text-align: center;
-    display: inline-block;
+    display: block;
     color: white;
     background-color: black;
     border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    
 }
 
 .buttonT:hover {
@@ -124,14 +157,7 @@ body {
 
 }
 
-.explain {
-    padding: 2rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    width: 90vw;
-    height: 20vh;
-    
-}
+
 
 .moreinfo1 {
     font-size: 50%;
@@ -140,7 +166,7 @@ body {
 }
 
 .interest {
-    display: flex;
+    display: gird;
     
     margin: 10%;
 }
@@ -311,10 +337,7 @@ body {
 .firstStarting {
 
     
-    height: 50vh;
-    flex-wrap:wrap;
-    margin-bottom: 13rem;
-    width: 30vw;
+ 
     padding-left: 1rem;
     padding-top: 5rem;
     color: rgb(231, 152, 123);
@@ -415,7 +438,6 @@ video {
 .articleDes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     font-size: 1.5rem;
     align-items: center;
     justify-content: center;
