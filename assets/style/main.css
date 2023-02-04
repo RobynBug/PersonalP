@@ -95,7 +95,7 @@ body {
 .container {
     border: solid lightgrey;
     border-radius: 30px;
-    width:60vw;
+    width:70vw;
     min-height: 22.5vh;
     display: grid;
     background-color: rgb(187, 50, 187, .80);
