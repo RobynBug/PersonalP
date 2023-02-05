@@ -1,6 +1,5 @@
 * {
     padding-top: 26px;
-    font-size: 1.25rem;
     margin: 0px;
     
       
@@ -59,6 +58,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: start;
+    font-size: 1.5rem;
 
     
     
@@ -73,7 +73,7 @@ body {
     margin: auto;
     padding-bottom: 1rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    size: 80rem;
+    
 }
 
 .explain {
@@ -86,6 +86,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     row-gap: 1rem;
     padding: 2rem;
+    font-size: 2rem;
     
     
 }
@@ -108,6 +109,7 @@ body {
     justify-content: center;
     box-shadow: 0 0 8px 8px white inset;
    font-weight: bold; 
+   font-size: 2rem;
    
    
     
@@ -121,13 +123,14 @@ body {
 
 .buttonDesign {
     padding: 1.5rem;
+   
     
 }
 
 .buttonT {
     
     padding-bottom: 1rem;
-    width: auto;
+    width: 6vw;
     text-align: center;
     display: block;
     color: white;
@@ -159,22 +162,13 @@ body {
 
 
 
-.moreinfo1 {
-    font-size: 50%;
-    
-
-}
 
 .interest {
     display: gird;
-    
     margin: 10%;
 }
 
-.screen {
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 
 
@@ -329,7 +323,8 @@ body {
     display: grid;
     color: white;
     overflow:hidden;
-    width: 40vw;
+    width: 45vw;
+    height: 70vh;
     
     
 
@@ -339,10 +334,16 @@ body {
 }
 
 .starting {
-    display:grid;
-    overflow: hidden;
-    margin-top: 5rem;
+    
+    
     display: grid;
+    width: 40vw;
+    height: 30vh;
+    margin-bottom: 10rem;
+    
+    
+    
+    
 
     
     
@@ -357,17 +358,18 @@ body {
     padding-left: 1rem;
     padding-top: 5rem;
     color: rgb(231, 152, 123);
-    font-size: 1.5rem;
+    font-size:3rem;
+    height: 20vh;
 
 
 
 }
 
-#start{
-    display: flex;
-    margin-top: 3rem;
-    
-    
+#start {
+    display: grid;
+    width: 10vw;
+    height: 7vh;
+    font-size: 2rem;
     
     
 }
@@ -397,7 +399,7 @@ body {
 .introPhoto {
     
         height: 60vh;
-        width: 60vw;
+        width: 45vw;
         background-image: url(../img/HOBBIES-ARE-HEALTHY.jpg);
         background-color: rgb(145, 175, 97);
         background-position: 50%;
@@ -454,10 +456,10 @@ video {
 .articleDes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 1.5rem;
-    align-items: center;
+    font-size: 2rem;
+    
     justify-content: center;
-   
+    
     color: white;
     
 }
@@ -465,16 +467,24 @@ video {
 .innerDes {
     font-weight: bold;
     color: rgb(89, 241, 18);
-    font-size: 1.3rem;
-    width: 20rem;
+    font-size: 3rem;
+    width: 40rem;
+    height: 10vh;
+    min-height: 10vh;
     padding-top: 1rem;
     height: 10%;
+    text-align: center;
     
     
 }
 
 .infoItem {
-    font-size: 1rem;
+    
+    height: 22vh;
+    min-height: 22vh;
+    
+    
+    
     
 }
 
@@ -482,12 +492,23 @@ video {
     scroll-behavior: smooth;
     overflow: auto; resize: horizontal;
     height: 22vh;
-    min-height: 22vh;;
+    max-height: 22vh;
+    
+    
+    
 }
 
 .buttonDiv {
-    margin-bottom: 20rem;
-    height: 10vh;
-    width: 20vw;
+   
+    max-height: 10vh;
+    width: 40vw;
     
+    
+
+    
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: rgb(129, 129, 233);
 }
