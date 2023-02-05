@@ -196,6 +196,8 @@ body {
     margin: auto;
     display: flex;
     box-shadow: 0 0 8px 8px white inset;
+    width: 95vw;
+   
 
 }
 
@@ -218,6 +220,7 @@ body {
     margin: auto;
     display: flex;
     box-shadow: 0 0 8px 8px white inset;
+    width: 95vw;
 
 }
 
@@ -239,6 +242,7 @@ body {
     margin: auto;
     display: flex;
     box-shadow: 0 0 8px 8px white inset;
+    width: 95vw;
 
 }
 
@@ -260,6 +264,7 @@ body {
     margin: auto;
     display: flex;
     box-shadow: 0 0 8px 8px white inset;
+    width: 95vw;
 
 }
 
@@ -282,6 +287,8 @@ body {
     margin: auto;
     display: flex;
     box-shadow: 0 0 8px 8px white inset;
+    width: 95vw;
+    
 
 }
 
@@ -304,6 +311,7 @@ body {
     margin: auto;
     display: flex;
     box-shadow: 0 0 8px 8px white inset;
+    width: 95vw;
 
 }
 
@@ -314,6 +322,7 @@ body {
     display: grid;
     color: white;
     overflow:hidden;
+    width: 40vw;
     
     
 
@@ -367,7 +376,7 @@ body {
     background-image: url(../img/backgroundvid.png);
     border-radius: 50% / 10%;
     display: grid;
-    
+    width: 45vw;
     grid-template-columns: 1fr;
     border: solid black;
     padding-top: 10rem;
