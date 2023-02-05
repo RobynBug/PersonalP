@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('../img/background.jpg');
+    background-image: url('./assets/img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -179,7 +179,7 @@ body {
 
 
 .containerArt {
-    background: url(../img/painting.jpg);
+    background: url(/assets/img/painting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr;
@@ -200,7 +200,7 @@ body {
 }
 
 .containerReading {
-    background: url(../img/bookBackground.jpeg);
+    background: url(/assets/img/bookBackground.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr;
@@ -222,7 +222,7 @@ body {
 }
 
 .containerCrafts {
-    background: url(../img/craftsBackground.png);
+    background: url(/assets/img/craftsBackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr;
@@ -243,7 +243,7 @@ body {
 }
 
 .containerFitness {
-    background: url(../img/fitnessBackground.jpg);
+    background: url(/assets/img/fitnessBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr;
@@ -264,7 +264,7 @@ body {
 }
 
 .containerMusic {
-    background: url(../img/musicBackground.jpg);
+    background: url(/assets/img/musicBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr;
@@ -286,7 +286,7 @@ body {
 }
 
 .containerSkill {
-    background: url(../img/skillBackground.jpg);
+    background: url(/assets/img/skillBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr;
@@ -364,7 +364,7 @@ body {
 
   
 
-    background-image: url(../img/backgroundvid.png);
+    background-image: url(/assets/img/backgroundvid.png);
     border-radius: 50% / 10%;
     display: grid;
     
@@ -382,7 +382,7 @@ body {
     
         height: 60vh;
         width: 60vw;
-        background-image: url(../img/HOBBIES-ARE-HEALTHY.jpg);
+        background-image: url(/assets/img/HOBBIES-ARE-HEALTHY.jpg);
         background-color: rgb(145, 175, 97);
         background-position: 50%;
         background-size: 100%;
