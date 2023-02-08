@@ -130,7 +130,8 @@ body {
 .buttonT {
     
     padding-bottom: 1rem;
-    width: 6vw;
+    width: auto;
+    height: auto;
     text-align: center;
     display: block;
     color: white;
@@ -367,8 +368,8 @@ body {
 
 #start {
     display: grid;
-    width: 12vw;
-    height: 8vh;
+    width: auto;
+    height: auto;
     font-size: 1.8rem;
     text-align: center;
     text-justify: center;
@@ -470,7 +471,7 @@ video {
     font-weight: bold;
     color: rgb(89, 241, 18);
     font-size: 3rem;
-    width: 40rem;
+    width: 42vw;
     height: 10vh;
     min-height: 10vh;
     padding-top: 1rem;
@@ -516,11 +517,10 @@ h2 {
 }
 
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
     input {
        display: block;
-       margin-left: auto;
-       margin-right: auto;
+       margin-left: 2rem;
        margin-bottom: 2rem;
        
        padding: 0;
@@ -531,7 +531,7 @@ h2 {
    }
 
    .buttonT {
-       min-width: 25vw;
+       min-width: auto;
        margin-bottom: 5rem;
    }
    .articleDes div {
@@ -587,6 +587,7 @@ h2 {
 
    .GenContainer {
     min-height: 90vh;
+    margin-bottom: 2rem;
    }
 
    .starting {
@@ -605,12 +606,13 @@ h2 {
     overflow: wrap;
  }
 
- .secondtitle {
+ .secondtitle h3 {
     margin:auto;
+    min-width: fit;
  }
 
  .scrollItem {
-    min-height: 50vh;
+    min-width: 45vw;
  }
   
 
