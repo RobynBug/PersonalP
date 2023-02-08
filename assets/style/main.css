@@ -13,7 +13,7 @@ body {
     
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
     body {
     grid-template-columns: 1fr;
     }
@@ -513,4 +513,87 @@ video {
 h2 {
     font-size: 3.5rem;
     color: rgb(129, 129, 233);
+}
+
+@media(max-width: 600px) {
+    input {
+       display: block;
+       margin: 0;
+   }
+
+   .container {
+       width: 60vw;
+   }
+
+   .buttonT {
+       min-width: 25vw;
+       margin-bottom: 5rem;
+   }
+   .articleDes div {
+       display: block;
+       width: 80vw;
+   }
+
+   .GenContainer {
+    height:85vh;
+    width: 80vw;
+   }
+
+   .buttonDiv {
+    width: 20vw;
+    height: 50vh;
+    
+   }
+
+   #start {
+    width: 20vw;
+    height: 15vh;
+   }
+
+   .videoContainer {
+    min-width: 90vw;
+    min-height: 80vh;
+   }
+
+   video {
+    max-width: 90vw;
+    min-width: 90vw;
+    min-height: 60vh;
+    max-height: 70vh;
+    object-fit:inherit;
+
+    
+   }
+
+   .randomGenerator {
+    min-width: 90vw;
+    max-height: 90vh;
+   }
+
+   .articleDes {
+    display: block;
+   }
+
+   .introPhoto {
+    margin-top: 5rem;
+    min-height: 70vh;
+    min-width: 60vw;
+   }
+
+   .GenContainer {
+    min-height: 90vh;
+   }
+
+   .starting {
+    min-width: 50vw;
+    text-align: center;
+   }
+ .innerDes {
+    max-width: 40vw;
+   margin-bottom: 3rem;
+   
+    overflow: wrap;
+ }
+  
+
 }
