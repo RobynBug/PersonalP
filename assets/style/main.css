@@ -130,10 +130,10 @@ body {
 
 .buttonT {
     
-    padding-bottom: 1rem;
+    
     width: auto;
     height: auto;
-    text-align: center;
+    text-justify: center;
     display: block;
     color: white;
     background-color: black;
@@ -162,6 +162,9 @@ body {
 
 }
 
+#radioSubmit {
+    padding: 1rem;
+}
 
 
 
@@ -340,7 +343,7 @@ body {
     
     display: grid;
     width: 40vw;
-    height: 30vh;
+    height: 45vh;
     margin-bottom: 10rem;
     
     
@@ -374,6 +377,8 @@ body {
     font-size: 1.8rem;
     text-align: center;
     text-justify: center;
+    padding: 1rem;
+    
     
     
 }
@@ -622,5 +627,28 @@ h2 {
     min-width: 45vw;
  }
   
+
+}
+
+@media(max-width: 1349px) {
+    input {
+        display: block;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        
+        padding: 0;
+    }
+
+    form {
+        padding: 2rem;
+    }
+
+    .selection1 {
+        width: 30vw;
+    }
+
+    .container {
+        width: 30vw;
+    }
 
 }
