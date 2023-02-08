@@ -604,6 +604,7 @@ h2 {
 
    .starting h2 {
     min-width: auto;
+    font-size: 2.5rem;
    }
  .innerDes {
     max-width: 40vw;
