@@ -51,7 +51,8 @@ body {
     background-color: rgb(182, 185, 187, .75);
     border-radius: 10%;
     text-align: center;
-    max-width: 25vw;
+    max-width: 40vw;
+    width: 35vw;
     box-shadow: 0 0 8px 8px  rgba(206, 209, 211, 0.75);
     padding-bottom: 2rem;
     margin: 2rem;
@@ -375,6 +376,11 @@ body {
     text-justify: center;
     
     
+}
+
+.starting h2 {
+    max-height: 30vh;
+    height: 20vh;
 }
 
    
