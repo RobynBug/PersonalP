@@ -534,11 +534,14 @@ h2 {
        margin-left: 2rem;
        margin-bottom: 2rem;
        
-       padding: 0;
+       padding: 4rem;
    }
 
    .container {
        width: 60vw;
+       min-width: 60vw;
+       
+       
    }
 
    .buttonT {
@@ -627,16 +630,21 @@ h2 {
     min-width: 45vw;
  }
   
+ .selection1 {
+    text-align: center;
+    margin-left: 2rem;
+ }
 
 }
 
 @media(max-width: 1349px) {
     input {
         display: block;
-        margin-left: 2rem;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 2rem;
         
-        padding: 0;
+        padding: 10px;
     }
 
     form {
@@ -645,6 +653,7 @@ h2 {
 
     .selection1 {
         width: 30vw;
+        margin:auto;
     }
 
     .container {
