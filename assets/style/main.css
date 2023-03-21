@@ -534,7 +534,7 @@ h2 {
        margin-left: auto;
        margin-bottom: 2rem;
        margin-right: auto;
-       padding: .25rem;
+       padding: .5rem;
    }
 
    .container {
@@ -546,7 +546,7 @@ h2 {
 
    .buttonT {
        min-width: auto;
-       margin-bottom: 5rem;
+       
    }
    .articleDes div {
        display: block;
@@ -561,6 +561,7 @@ h2 {
    .buttonDiv {
     width: 20vw;
     height: 50vh;
+    z-index: 1;
     
    }
 
@@ -591,6 +592,10 @@ h2 {
 
    .articleDes {
     display: block;
+   }
+
+   .firstStarting {
+    height: 45vh;
    }
 
    .introPhoto {
@@ -649,7 +654,7 @@ h2 {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 2rem;
-        padding: .25rem;
+        padding: .5rem;
      
     }
 
