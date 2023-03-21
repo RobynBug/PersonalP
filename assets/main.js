@@ -330,7 +330,7 @@ newForm.addEventListener('submit', (e) => {
         video.autoplay = true;
         video.loop = true;
 
-        action.innerHTML = `<h2 class= "innerDes">${activeName}</h2><br><div class= "scrollItem"><article class= "itemInfo">${activeDes}</article></div>`;
+        action.innerHTML = `<h2 class= "innerDes">${activeName}</h2><div class= "scrollItem"><article class= "itemInfo">${activeDes}</article></div>`;
         action.appendChild(start1);
         start1.appendChild(start);
         

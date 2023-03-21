@@ -329,7 +329,7 @@ body {
     color: white;
     overflow:hidden;
     width: 45vw;
-    height: 70vh;
+    height: 90vh;
     
     
 
@@ -514,7 +514,7 @@ video {
 
 .buttonDiv {
    
-    max-height: 10vh;
+    max-height: 20vh;
     width: 40vw;
     
     
@@ -622,6 +622,154 @@ h2 {
  .innerDes {
     max-width: 40vw;
    margin-bottom: 3rem;
+   
+    overflow: wrap;
+ }
+
+ .secondtitle h3 {
+    margin:auto;
+    min-width: fit;
+ }
+
+ .scrollItem {
+    min-width: 45vw;
+ }
+  
+ .selection1 {
+    text-align: center;
+    width: auto;
+   
+ }
+
+ .newForm {
+    width: 50vw;
+    
+ }
+
+}
+
+@media(max-width: 1349px) {
+    input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        padding: .5rem;
+     
+    }
+
+    form {
+        padding: 2rem;
+    }
+
+    .selection1 {
+        width: 60w;
+        margin:auto;
+    }
+
+    .container {
+        width: 65vw;
+    }
+
+}
+
+
+@media(max-width: 935px) {
+    input {
+       display: block;
+       margin-left: auto;
+       margin-bottom: 2rem;
+       margin-right: auto;
+       padding: .5rem;
+   }
+
+   .container {
+       width: 80vw;
+       min-width: 60vw;
+       
+       
+   }
+
+   .buttonT {
+       min-width: auto;
+       
+   }
+   .articleDes div {
+       display: block;
+       width: 80vw;
+   }
+
+   .GenContainer {
+    min-height:85vh;
+    width: 80vw;
+   }
+
+   .buttonDiv {
+    width: 20vw;
+    height: 50vh;
+    
+    
+   }
+
+   #start {
+    width: auto;
+    height: auto;
+   }
+
+   .videoContainer {
+    min-width: 90vw;
+    min-height: 80vh;
+   }
+
+   video {
+    max-width: 90vw;
+    min-width: 90vw;
+    min-height: 60vh;
+    max-height: 70vh;
+    object-fit:inherit;
+
+    
+   }
+
+   .randomGenerator {
+    min-width: 90vw;
+    max-height: 90vh;
+   }
+
+   .articleDes {
+    display: block;
+   }
+
+   .firstStarting {
+    height: 50vh;
+   }
+
+   .introPhoto {
+    margin-top: 5rem;
+    min-height: 70vh;
+    min-width: 60vw;
+   }
+
+   .GenContainer {
+    min-height: 100vh;
+    margin-bottom: 2rem;
+   }
+
+   .starting {
+    min-width: 50vw;
+    min-height: 50vh;
+    text-align: center;
+   }
+
+   .starting h2 {
+    min-width: auto;
+    font-size: 2.5rem;
+    
+   }
+ .innerDes {
+    max-width: 40vw;
+    max-height: 20vh;
+   margin-bottom: 2rem;
    
     overflow: wrap;
  }
